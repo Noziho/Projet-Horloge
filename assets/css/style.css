@@ -9,4 +9,64 @@ html {
 body {
     margin: 0;
     padding: 0;
+    background: #383838;
 }
+
+h1 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    color: whitesmoke;
+    font-size: 3rem;
+}
+
+#container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#cloakContainer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 30rem;
+}
+img {
+    width: 20%;
+}
+
+.aiguilles {
+    position: absolute;
+}
+
+#secondes {
+    bottom: 50%;
+    width: 8.2%;
+    left: 50%;
+    background: darkorange;
+    height: 0.2rem;
+    transform-origin: left;
+}
+
+#minutes {
+    bottom: 50%;
+    width: 6%;
+    left: 50%;
+    background: #aa2a2a;
+    height: 0.3rem;
+    transform-origin: left;
+}
+
+#heures {
+    bottom: 50%;
+    width: 4%;
+    left: 50%;
+    background: #871919;
+    height: 0.4rem;
+    transform-origin: left;
+}
+
+
