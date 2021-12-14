@@ -3,7 +3,7 @@ let aiguilleMinutes = document.getElementById("minutes");
 let aiguilleHeures = document.getElementById("heures");
 
 let timeOutRecur = function () {
-    let timeOutId = setTimeout(function () {
+    setTimeout(function () {
         let actualDate = new Date();
         let secondes = actualDate.getSeconds() * 6 - 90;
         let minutes = actualDate.getMinutes() * 6 - 90 + 0.1 * actualDate.getSeconds();
